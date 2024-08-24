@@ -16,6 +16,7 @@ public class Main {
         System.out.println("Значение переменной float с типом С плавающей точкой " + trupik);
         double glist = -18.921918982;
         System.out.println("Значение переменной double с типом С плавающей точкой " + glist);
+        System.out.println();
 
         float a = 27.12f;
         System.out.println(a);
@@ -31,6 +32,7 @@ public class Main {
         System.out.println(f);
         byte g = 67;
         System.out.println(g);
+        System.out.println();
 
         byte lyudmilaPavlovna = 23;
         System.out.println("У Людмилы Павловны — " + lyudmilaPavlovna + " ученика.");
@@ -44,6 +46,8 @@ public class Main {
         System.out.println(totalstudents);
         float sheetsOfPaper = (float) together / totalstudents;
         System.out.println("На каждого ученика рассчитано — " + sheetsOfPaper + " листов бумаги.");
+        System.out.println();
+
 
         byte bottles = 16;
         System.out.println(bottles + " бутылок.");
@@ -51,12 +55,13 @@ public class Main {
         System.out.println(productionTime + " минуты.");
         int first = (bottles / productionTime) * 20;
         System.out.println("За 20 минут машина произвела - " + first + " штук бутылок.");
-        int second = (bottles / productionTime) * (24*60);
+        int second = (bottles / productionTime) * (24 * 60);
         System.out.println("За сутки машина произвела - " + second + " штук бутылок.");
-        int third = (bottles / productionTime) * (24*3*60);
+        int third = (bottles / productionTime) * (24 * 3 * 60);
         System.out.println("За 3 дня машина произвела - " + third + " штук бутылок.");
-        int fourth =(bottles / productionTime) * (24*31*60);
+        int fourth = (bottles / productionTime) * (24 * 31 * 60);
         System.out.println("За 1 месяц машина произвела - " + fourth + " штук бутылок.");
+        System.out.println();
 
         byte cans = 120;
         System.out.println(cans);
@@ -73,6 +78,7 @@ public class Main {
         int brown = classesAtSchool * brownPaint;
         System.out.println(brown);
         System.out.println("В школе, где " + classesAtSchool + " классов, нужно " + white + " банок белой краски и " + brown + " банок коричневой краски.");
+        System.out.println();
 
         int bananas = 5 * 80;
         System.out.println(bananas);
@@ -86,6 +92,7 @@ public class Main {
         System.out.println("Результат продукта в граммах " + amountOfGrams);
         double quantityInKilograms = (bananas + milk + iceCream + eggs) / 1000.0;
         System.out.println("Результат продукта в киллограммах " + quantityInKilograms);
+        System.out.println();
 
         short task = 7000;
         System.out.println(task);
@@ -97,6 +104,7 @@ public class Main {
         System.out.println("Чтобы добиться результата похудения, потребуется в среднем " + minimumLoad + " дней .");
         int maximumLoad = task / reset2;
         System.out.println("Чтобы добиться результата похудения, потребуется в среднем " + maximumLoad + " дней .");
+        System.out.println();
 
         int mashaSalary = 67760;
         int denisSalary = 83690;
@@ -116,5 +124,7 @@ public class Main {
         System.out.println("Маша теперь получает " + mashaNewSalary + " рублей. Годовой доход вырос на " + mashaDifference + " рублей.");
         System.out.println("Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос на " + denisDifference + " рублей.");
         System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " + kristinaDifference + " рублей.");
+        System.out.println();
+
     }
 }
