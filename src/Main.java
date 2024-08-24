@@ -89,9 +89,9 @@ public class Main {
         int eggs = 4 * 70;
         System.out.println(eggs);
         int amountOfGrams = bananas + milk + iceCream + eggs;
-        System.out.println("Результат продукта в граммах " + amountOfGrams);
+        System.out.println("Результат продукта в граммах " + amountOfGrams + " кг.");
         double quantityInKilograms = (bananas + milk + iceCream + eggs) / 1000.0;
-        System.out.println("Результат продукта в киллограммах " + quantityInKilograms);
+        System.out.println("Результат продукта в киллограммах " + quantityInKilograms + " кг.");
         System.out.println();
 
         short task = 7000;
@@ -101,9 +101,11 @@ public class Main {
         short reset2 = 500;
         System.out.println(reset2);
         int minimumLoad = task / reset1;
-        System.out.println("Чтобы добиться результата похудения, потребуется в среднем " + minimumLoad + " дней .");
+        System.out.println("Чтобы добиться минимального результата похудения, потребуется " + minimumLoad + " дней .");
         int maximumLoad = task / reset2;
-        System.out.println("Чтобы добиться результата похудения, потребуется в среднем " + maximumLoad + " дней .");
+        System.out.println("Чтобы добиться максимального результата похудения, потребуется " + maximumLoad + " дней .");
+        int averageValue = (maximumLoad + minimumLoad) / 2;
+        System.out.println("Чтобы добиться результата похудения, потребуется в среднем " + averageValue + " дней .");
         System.out.println();
 
         int mashaSalary = 67760;
